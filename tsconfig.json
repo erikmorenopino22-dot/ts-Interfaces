@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    /* Dirección de Entrada y Salida */
+    "rootDir": "./src",
+    "outDir": "./public",
+
+    /* Configuración de Entorno y Módulos */
+    "module": "nodenext",
+    "target": "esnext",
+    "types": [],
+
+    /* Generación de Archivos de Depuración */
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true,
+
+    /* Opciones Estrictas de Verificación */
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
+    "strict": true,
+    "jsx": "react-jsx",
+    "verbatimModuleSyntax": true,
+    "isolatedModules": true,
+    "noUncheckedSideEffectImports": true,
+    "moduleDetection": "force",
+    "skipLibCheck": true
+  },
+  "include": ["src/**/*", "public/main.js"]
+}
